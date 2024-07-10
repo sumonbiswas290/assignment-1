@@ -262,3 +262,59 @@ main{
     text-align: left;
     text-decoration-line: underline;
 }
+.help{
+    width: 1140px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(../assets/img/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 48px;
+    border-radius: 16px;
+}
+.help section{
+    color: rgb(255, 255, 255);
+    font-family: inter, poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.help_msg{
+    color: rgb(255, 255, 255);
+    font-family: inter, poppins;
+    text-align: center;
+}
+form{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#help_text{
+    width: 548px;
+    height: 57px;
+    padding: 19px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+#help_submit{
+    width: 120px;
+    height: 57px;
+    margin-left: 16px;
+    padding: 17px 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-family: inter, poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    cursor: pointer;
+}
