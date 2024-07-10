@@ -76,6 +76,11 @@ main{
     font-family: inter, poppins;
     text-align: center;
 }
+.align_left{
+    color: rgb(13, 19, 33);
+    font-family: inter, poppins;
+    text-align: left;
+}
 .banner button{
     border-radius: 8px;
     background: rgb(13, 19, 33);
@@ -147,6 +152,7 @@ main{
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
     padding: 12px 20px 12px 20px;
+    cursor: pointer;
 }
 .wishs_card_rev{
     border-radius: 16px;
@@ -193,4 +199,66 @@ main{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+}
+.current_target>section{
+    color: rgb(13, 19, 33);
+    font-family: inter, poppins;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.current_target_hcj{
+    width: 1140px;
+    height: 299px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.current_target_hcj div{
+    width: 364px;
+    height: 299px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+    border-radius: 16px;
+}
+.current_target_hcj .h{
+    background: rgba(255, 76, 30, 0.05);
+}
+.current_target_hcj .c{
+    background: rgba(0, 76, 232, 0.05);
+}
+.current_target_hcj .j{
+    background: rgba(255, 223, 0, 0.05);
+}
+.current_target_hcj img{
+    height: 56px;
+    width: 56px;
+    margin-bottom: 24px;
+}
+.current_target_hcj section{
+    color: rgb(13, 19, 33);
+    font-family: inter, poppins;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 8px;
+}
+.current_target_hcj a{
+    margin-top: 24px;
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+    font-family: inter, poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    text-decoration-line: underline;
 }
