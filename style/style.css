@@ -106,9 +106,9 @@ main{
 .wwd section{
     color: rgb(13, 19, 33);
     font-family: inter, poppins;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 36px;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
     text-align: left;
     margin-bottom: 24px;
 }
@@ -207,7 +207,6 @@ main{
     width: 1140px;
     height: 299px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
@@ -279,6 +278,10 @@ main{
 }
 .target_sub div{
     margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 
@@ -312,7 +315,6 @@ main{
 form{
     margin-top: 24px;
     display: flex;
-    flex-direction: row;
     align-items: center;
 }
 #help_text{
