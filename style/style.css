@@ -200,7 +200,7 @@ main{
     justify-content: flex-start;
     align-items: center;
 }
-.current_target>section{
+.target{
     color: rgb(13, 19, 33);
     font-family: inter, poppins;
     font-size: 32px;
@@ -242,7 +242,7 @@ main{
     width: 56px;
     margin-bottom: 24px;
 }
-.current_target_hcj section{
+.target_section{
     color: rgb(13, 19, 33);
     font-family: inter, poppins;
     font-size: 24px;
@@ -252,7 +252,7 @@ main{
     text-align: left;
     margin-bottom: 8px;
 }
-.current_target_hcj a{
+.target_a{
     margin-top: 24px;
     text-decoration: none;
     color: rgb(13, 19, 33);
@@ -263,7 +263,34 @@ main{
     text-align: left;
     text-decoration-line: underline;
 }
+
+
+.next_target{
+    margin-top: 111px;
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.target_sub{
+    margin-top: 24px;
+    background-color: white;
+    width: 1140px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 40px;
+}
+.target_sub div{
+    margin-left: 24px;
+}
+
+
 .help{
+    margin-top: 49px;
     width: 1140px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(../assets/img/handshake.jpg);
     background-repeat: no-repeat;
@@ -331,7 +358,6 @@ footer{
     background-color: #F7F8F8;
     width: 1440px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
